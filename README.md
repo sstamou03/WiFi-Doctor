@@ -1,4 +1,4 @@
-# ******************** Wi-Fi Doctor *********************
+#  Wi-Fi Doctor
 # Wi-Fi Doctor – Part 1.1: Wi-Fi Network Density Analyzer
 
 To evaluate Wi-Fi network density, we collected **two packet capture files** using Wireshark in monitor mode:
@@ -87,3 +87,11 @@ In the `WifiNetPerfomance.py` we have:
   - Plots the **mean throughput per MCS index**
   - Prints the calculated **frame loss percentage**
   - Prints the **average normalized RateGap** across frames
+
+
+
+For **privacy and security reasons**, the `.pcapng` files used in this project (e.g. `TUC.pcapng`, `MyHome.pcapng`) **are not included** in this repository.
+
+To use the project, you will need to provide your own capture files.
+
+You can easily generate them using tools like **Wireshark** or **tshark**.
